@@ -16,23 +16,7 @@
 
 本项目实现了一种基于遗传算法的增量学习方法，支持ResNet系列模型，以及可支持多种轻量级模型（ResNet18、EfficientNet、MobileNetV2）和数据集（MNIST、CIFAR-10、CIFAR-100）。通过遗传算法优化模型的训练过程，实现对新类别的逐步学习，同时保持对旧类别的记忆。
 
-## 引用
 
-如果您觉得本项目对您的研究有帮助，请考虑引用我们的论文：
-
-```bibtex
-@article{ZENG2026108021,
- title = {CAGO-ECIL: Cloud-Assisted Genetic Optimization for Edge-Class Incremental Learning with training acceleration},
- journal = {Future Generation Computer Systems},
- volume = {174},
- pages = {108021},
- year = {2026},
- issn = {0167-739X},
- doi = {https://doi.org/10.1016/j.future.2025.108021},
- url = {https://www.sciencedirect.com/science/article/pii/S0167739X25003164},
- author = {Huayue Zeng and Wangbo Shen and Haijie Wu and Min Dong and Weiwei Lin and C.L. Philip Chen}
-}
-```
 
 ## 目录结构
 
@@ -71,6 +55,7 @@ resume: false
 checkpoint_dir: checkpoint
 seed: 2023
 ```
+如果想要快速尝试实验过程，运行项目之前，可以将config/config.yaml的population 和 generation参数修改为更小的值，比如`population=10`, `generation=2`，以进行快速开始。
 
 ### 运行项目
 
@@ -91,4 +76,21 @@ checkpoint_dir: checkpoint
 
 ```bash
 python main.py --config config/config.yaml
+```
+## 引用
+
+如果您觉得本项目对您的研究有帮助，请考虑引用我们的论文：
+
+```bibtex
+@article{ZENG2026108021,
+ title = {CAGO-ECIL: Cloud-Assisted Genetic Optimization for Edge-Class Incremental Learning with training acceleration},
+ journal = {Future Generation Computer Systems},
+ volume = {174},
+ pages = {108021},
+ year = {2026},
+ issn = {0167-739X},
+ doi = {https://doi.org/10.1016/j.future.2025.108021},
+ url = {https://www.sciencedirect.com/science/article/pii/S0167739X25003164},
+ author = {Huayue Zeng and Wangbo Shen and Haijie Wu and Min Dong and Weiwei Lin and C.L. Philip Chen}
+}
 ```

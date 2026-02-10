@@ -6,8 +6,8 @@ learning_rate: 0.001
 increment: 1
 model_name: resnet18
 select_rate: 0.2
-population: 50
-generation: 40
+population: 40
+generation: 30
 mutation_rate: 0.8
 resume: false
 checkpoint_dir: checkpoint

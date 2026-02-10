@@ -16,25 +16,6 @@ This paper proposes a cloud-assisted genetic optimization method for edge-class 
 
 This repo implements a genetic algorithm-based incremental learning method, supporting ResNet backboned models, also lightweight models (EfficientNet, MobileNet) and datasets (MNIST, CIFAR-10, CIFAR-100). By optimizing the model training process through genetic algorithms, it achieves incremental learning of new classes while retaining memory of old classes.
 
-## Citation
-
-If you find this project useful for your research, please consider citing our paper:
-
-```bibtex
-@article{ZENG2026108021,
- title = {CAGO-ECIL: Cloud-Assisted Genetic Optimization for Edge-Class Incremental Learning with training acceleration},
- journal = {Future Generation Computer Systems},
- volume = {174},
- pages = {108021},
- year = {2026},
- issn = {0167-739X},
- doi = {https://doi.org/10.1016/j.future.2025.108021},
- url = {https://www.sciencedirect.com/science/article/pii/S0167739X25003164},
- author = {Huayue Zeng and Wangbo Shen and Haijie Wu and Min Dong and Weiwei Lin and C.L. Philip Chen}
-}
-```
-
-## Directory Structure
 
 ## Usage
 
@@ -72,6 +53,8 @@ checkpoint_dir: checkpoint
 seed: 2023
 ```
 
+if you want a quick start, you can try with CIFAR-10 dataset, and a smaller population and generation, e.g. `population=10`, `generation=5` before running the project.
+
 ### Run Project
 
 ```bash
@@ -91,4 +74,23 @@ Then run:
 
 ```bash
 python main.py --config config/config.yaml
+```
+
+
+## Citation
+
+If you find this project useful for your research, please consider citing our paper:
+
+```bibtex
+@article{ZENG2026108021,
+ title = {CAGO-ECIL: Cloud-Assisted Genetic Optimization for Edge-Class Incremental Learning with training acceleration},
+ journal = {Future Generation Computer Systems},
+ volume = {174},
+ pages = {108021},
+ year = {2026},
+ issn = {0167-739X},
+ doi = {https://doi.org/10.1016/j.future.2025.108021},
+ url = {https://www.sciencedirect.com/science/article/pii/S0167739X25003164},
+ author = {Huayue Zeng and Wangbo Shen and Haijie Wu and Min Dong and Weiwei Lin and C.L. Philip Chen}
+}
 ```
