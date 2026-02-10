@@ -12,9 +12,9 @@ This project is the official implementation of the paper **"CAGO-ECIL: Cloud-Ass
 
 This paper proposes a cloud-assisted genetic optimization method for edge-class incremental learning, aiming to accelerate the training process while maintaining model performance.
 
-## Project Introduction
+## Repo Introduction
 
-This project implements a genetic algorithm-based incremental learning method, supporting various lightweight models (ResNet18, ResNet32, EfficientNet, MobileNetV2) and datasets (MNIST, CIFAR-10, CIFAR-100). By optimizing the model training process through genetic algorithms, it achieves incremental learning of new classes while retaining memory of old classes.
+This repo implements a genetic algorithm-based incremental learning method, supporting ResNet backboned models, also lightweight models (EfficientNet, MobileNet) and datasets (MNIST, CIFAR-10, CIFAR-100). By optimizing the model training process through genetic algorithms, it achieves incremental learning of new classes while retaining memory of old classes.
 
 ## Citation
 

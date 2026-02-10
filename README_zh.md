@@ -14,7 +14,7 @@
 
 ## 项目简介
 
-本项目实现了一种基于遗传算法的增量学习方法，支持多种轻量级模型（ResNet18、ResNet32、EfficientNet、MobileNetV2）和数据集（MNIST、CIFAR-10、CIFAR-100）。通过遗传算法优化模型的训练过程，实现对新类别的逐步学习，同时保持对旧类别的记忆。
+本项目实现了一种基于遗传算法的增量学习方法，支持ResNet系列模型，以及可支持多种轻量级模型（ResNet18、EfficientNet、MobileNetV2）和数据集（MNIST、CIFAR-10、CIFAR-100）。通过遗传算法优化模型的训练过程，实现对新类别的逐步学习，同时保持对旧类别的记忆。
 
 ## 引用
 
