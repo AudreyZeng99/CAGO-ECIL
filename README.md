@@ -23,10 +23,6 @@ This repo implements a genetic algorithm-based incremental learning method, supp
 
 1. **Create Virtual Environment (Optional)**:
 
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
 
 2. **Install Dependencies**:
 

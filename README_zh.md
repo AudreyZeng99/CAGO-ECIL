@@ -26,10 +26,6 @@
 
 1. **创建虚拟环境（可选）**：
 
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
 
 2. **安装依赖**：
 
