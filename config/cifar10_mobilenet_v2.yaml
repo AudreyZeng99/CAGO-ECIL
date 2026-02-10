@@ -1,0 +1,14 @@
+# config/config.yaml
+
+dataset: CIFAR-10
+nepoch: 10
+learning_rate: 0.001
+increment: 1
+model_name: mobilenet_v2
+select_rate: 0.2
+population: 50
+generation: 40
+mutation_rate: 0.8
+resume: false
+checkpoint_dir: checkpoint
+seed: 2023

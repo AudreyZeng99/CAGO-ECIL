@@ -1,0 +1,14 @@
+# config/config.yaml
+
+dataset: CIFAR-100
+nepoch: 10
+learning_rate: 0.001
+increment: 10
+model_name: resnet18
+select_rate: 0.2
+population: 50
+generation: 20
+mutation_rate: 0.8
+resume: false
+checkpoint_dir: checkpoint
+seed: 2023

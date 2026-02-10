@@ -1,0 +1,14 @@
+# config/tinyimagenet_10_resnet18.yaml
+
+dataset: TinyImageNet
+nepoch: 10
+learning_rate: 0.001
+increment: 10
+model_name: resnet18
+select_rate: 0.2
+population: 2
+generation: 10
+mutation_rate: 0.8
+resume: false
+checkpoint_dir: checkpoint
+seed: 2023
